@@ -1,10 +1,12 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { fileURLToPath } from 'url'; // Add this import
-import { dirname } from 'path'; // Add this for __dirname equivalent
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-const __filename = fileURLToPath(import.meta.url); // Convert module URL to file path
-const __dirname = dirname(__filename); // Get directory name
+ // Convert module URL to file path
+const __filename = fileURLToPath(import.meta.url);
+// Get directory name
+const __dirname = dirname(__filename);
 
 export async function createFileWithMessage(message, filename = null) {
   const now = new Date();
