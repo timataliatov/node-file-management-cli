@@ -25,7 +25,7 @@ A simple command-line interface (CLI) for creating and deleting files with times
 
 1. Clone this repository:
    ```
-   git clone https://github.com/timataliatov/node-create-delete-week1.git
+   git clone https://github.com/timataliatov/node-file-management-cli.git
    ```
 2. Navigate to the project directory:
    ```
